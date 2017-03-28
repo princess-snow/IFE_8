@@ -1,0 +1,33 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+.container-fluid{
+    padding: 20px;
+}
+.row-fluid{
+    margin-bottom: 20px;
+}
+.span4,.span3,.span6,.span1,.span2,.span12,.span8{
+    background-color: #1aae1c;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+@media screen and (min-width: 980px) {
+    .narrow{
+        display: none;
+    }
+    .span4,.span3,.span6,.span1,.span2{
+        background: #1aae1c;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .wide{
+        display: none;
+    }
+    .span3,.span6,.span2,.span12,.span8{
+        background: #389ad9;
+    }
+}
